@@ -1,5 +1,5 @@
 {
-  "name": "@mcga/iso-small-craft-identification",
+  "name": "iso-small-craft-identification",
   "version": "1.0.0",
   "description": "BS EN ISO 10087 Small craft. Craft identification. Coding system. ( BS EN ISO 10087:2019 )",
   "license": "MIT ( See LICENSE )",
@@ -11,7 +11,9 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage"
   },
-  "dependencies": {},
+  "dependencies": {
+    "npm-cli-login": "^0.1.1"
+  },
   "devDependencies": {
     "cross-env": "^6.0.0",
     "jest": "^24.9.0",
