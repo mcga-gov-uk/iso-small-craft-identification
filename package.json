@@ -12,7 +12,6 @@
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage"
   },
   "dependencies": {
-    "npm-cli-login": "^0.1.1"
   },
   "devDependencies": {
     "cross-env": "^6.0.0",
