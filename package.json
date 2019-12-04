@@ -1,0 +1,33 @@
+{
+  "name": "@mcga/iso-small-craft-identification",
+  "version": "1.0.0",
+  "description": "BS EN ISO 10087 Small craft. Craft identification. Coding system. ( BS EN ISO 10087:2019 )",
+  "license": "MIT ( See LICENSE )",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcga-gov-uk/iso-hull-identifier-parser.git"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^6.0.0",
+    "jest": "^24.9.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testResultsProcessor": "jest-sonar-reporter",
+    "collectCoverageFrom": [
+      "src/**"
+    ]
+  },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "sonar.xml",
+    "indent": 4
+  }
+}
