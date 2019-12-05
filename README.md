@@ -1,6 +1,6 @@
 # iso-small-craft-identification
 Node.js utilities to support BS EN ISO 10087 Small craft. Craft identification. Coding system. 
-Use this package is you want to check the validity of Hull Identification Numbers (HINs) for small boats.
+Use this package if you want to check the validity of Hull Identification Numbers (HINs) for small boats.
 
 #### Supported versions of the standard:
 - BS EN ISO 10087:2019 <https://www.iso.org/obp/ui/#iso:std:iso:10087:ed-4:v1:en>
