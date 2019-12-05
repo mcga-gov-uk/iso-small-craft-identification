@@ -7,7 +7,7 @@ Use this package is you want to check the validity of Hull Identification Number
 
 #### Usage:
 ```javascript
-const isci = require('@mcga/iso-small-craft-identification')
+const isci = require('iso-small-craft-identification')
 
 // Valid HIN
 isci.ishin('NL-HXAB7A33G293'); // returns true
